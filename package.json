@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "foo": "tsx src/foo.ts"
   },
   "devDependencies": {
     "@yarnpkg/sdks": "^3.0.0-rc.45",
+    "tsx": "^3.12.7",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
   },

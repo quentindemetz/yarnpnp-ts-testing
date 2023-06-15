@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.45"],\
+            ["tsx", "npm:3.12.7"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"],\
             ["vite", "virtual:09372a449a17197097239b11f411e7fc04017108f7ed39a817caaa4c5ab6fb978b89767f75c647d778b3c9b2b7103637c3e0bd15de6a705ea0535eff2b7a2850#npm:4.3.9"]\
           ],\
@@ -41,6 +42,39 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@arcanis/slice-ansi", "npm:1.1.1"],\
             ["grapheme-splitter", "npm:1.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@esbuild-kit/cjs-loader", [\
+        ["npm:2.4.2", {\
+          "packageLocation": "./.yarn/cache/@esbuild-kit-cjs-loader-npm-2.4.2-35522eed6f-e346e339bf.zip/node_modules/@esbuild-kit/cjs-loader/",\
+          "packageDependencies": [\
+            ["@esbuild-kit/cjs-loader", "npm:2.4.2"],\
+            ["@esbuild-kit/core-utils", "npm:3.1.0"],\
+            ["get-tsconfig", "npm:4.6.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@esbuild-kit/core-utils", [\
+        ["npm:3.1.0", {\
+          "packageLocation": "./.yarn/cache/@esbuild-kit-core-utils-npm-3.1.0-c21c628a0e-d54fd5adb3.zip/node_modules/@esbuild-kit/core-utils/",\
+          "packageDependencies": [\
+            ["@esbuild-kit/core-utils", "npm:3.1.0"],\
+            ["esbuild", "npm:0.17.19"],\
+            ["source-map-support", "npm:0.5.21"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@esbuild-kit/esm-loader", [\
+        ["npm:2.5.5", {\
+          "packageLocation": "./.yarn/cache/@esbuild-kit-esm-loader-npm-2.5.5-2cb7377e71-9d4a03ffc9.zip/node_modules/@esbuild-kit/esm-loader/",\
+          "packageDependencies": [\
+            ["@esbuild-kit/esm-loader", "npm:2.5.5"],\
+            ["@esbuild-kit/core-utils", "npm:3.1.0"],\
+            ["get-tsconfig", "npm:4.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -688,6 +722,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["buffer-from", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/buffer-from-npm-1.1.2-03d2f20d7e-0448524a56.zip/node_modules/buffer-from/",\
+          "packageDependencies": [\
+            ["buffer-from", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["cacache", [\
         ["npm:17.1.3", {\
           "packageLocation": "./.yarn/cache/cacache-npm-17.1.3-f75f768a29-385756781e.zip/node_modules/cacache/",\
@@ -1188,6 +1231,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["get-stream", "npm:5.2.0"],\
             ["pump", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["get-tsconfig", [\
+        ["npm:4.6.0", {\
+          "packageLocation": "./.yarn/cache/get-tsconfig-npm-4.6.0-c5b069ce5e-fd2589a50e.zip/node_modules/get-tsconfig/",\
+          "packageDependencies": [\
+            ["get-tsconfig", "npm:4.6.0"],\
+            ["resolve-pkg-maps", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1949,6 +2002,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["project-name", "workspace:."],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.45"],\
+            ["tsx", "npm:3.12.7"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"],\
             ["vite", "virtual:09372a449a17197097239b11f411e7fc04017108f7ed39a817caaa4c5ab6fb978b89767f75c647d778b3c9b2b7103637c3e0bd15de6a705ea0535eff2b7a2850#npm:4.3.9"]\
           ],\
@@ -2021,6 +2075,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/resolve-alpn-npm-1.2.1-af77edd28b-f558071fcb.zip/node_modules/resolve-alpn/",\
           "packageDependencies": [\
             ["resolve-alpn", "npm:1.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["resolve-pkg-maps", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/resolve-pkg-maps-npm-1.0.0-135b70c854-1012afc566.zip/node_modules/resolve-pkg-maps/",\
+          "packageDependencies": [\
+            ["resolve-pkg-maps", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2196,11 +2259,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["source-map", [\
+        ["npm:0.6.1", {\
+          "packageLocation": "./.yarn/cache/source-map-npm-0.6.1-1a3621db16-59ce8640cf.zip/node_modules/source-map/",\
+          "packageDependencies": [\
+            ["source-map", "npm:0.6.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["source-map-js", [\
         ["npm:1.0.2", {\
           "packageLocation": "./.yarn/cache/source-map-js-npm-1.0.2-ee4f9f9b30-c049a7fc4d.zip/node_modules/source-map-js/",\
           "packageDependencies": [\
             ["source-map-js", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["source-map-support", [\
+        ["npm:0.5.21", {\
+          "packageLocation": "./.yarn/cache/source-map-support-npm-0.5.21-09ca99e250-43e98d700d.zip/node_modules/source-map-support/",\
+          "packageDependencies": [\
+            ["source-map-support", "npm:0.5.21"],\
+            ["buffer-from", "npm:1.1.2"],\
+            ["source-map", "npm:0.6.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2332,6 +2415,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/tslib-npm-2.5.3-7756051e02-88902b309a.zip/node_modules/tslib/",\
           "packageDependencies": [\
             ["tslib", "npm:2.5.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tsx", [\
+        ["npm:3.12.7", {\
+          "packageLocation": "./.yarn/cache/tsx-npm-3.12.7-ec7ca43ce3-ddec149ad2.zip/node_modules/tsx/",\
+          "packageDependencies": [\
+            ["tsx", "npm:3.12.7"],\
+            ["@esbuild-kit/cjs-loader", "npm:2.4.2"],\
+            ["@esbuild-kit/core-utils", "npm:3.1.0"],\
+            ["@esbuild-kit/esm-loader", "npm:2.5.5"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"]\
           ],\
           "linkType": "HARD"\
         }]\
